@@ -54,7 +54,7 @@
         <el-form-item  label="父级分类：">
           <!-- options用来指定数据源 -->
           <!-- props用来指定配置对象 -->
-          <el-cascader expand-trigger="hover" :options="parentCateList" v-model="selectedKeys" :props="cascaderProps" @change="parentCateChange" clearable change-on-select></el-cascader>
+          <el-cascader expandTrigger="hover" :options="parentCateList" v-model="selectedKeys" :props="cascaderProps" @change="parentCateChange" clearable checkStrictly></el-cascader>
         </el-form-item>
       </el-form>
       <!-- 底部区域 -->
