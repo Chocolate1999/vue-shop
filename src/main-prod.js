@@ -22,7 +22,7 @@ import NProgress from 'nprogress'
 // import 'nprogress/nprogress.css'
 
 // 配置请求的根路径
-axios.defaults.baseURL = 'http://127.0.0.1:8888/api/private/v1/'
+axios.defaults.baseURL = 'https://www.liulongbin.top:8888/api/private/v1/'
 
 // 在 request 拦截器中，显示进度条 NProgress.start()
 // 设置axios请求拦截器
